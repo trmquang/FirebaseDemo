@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Work.init(snapshot : FIRDataSnapshot) -&gt; Work:Work.swift">
+      </ContextState>
+      <ContextState
+         contextName = "WorkListTableViewController.addBtn_TouchUpInside(UIBarButtonItem) -&gt; ():WorkListTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tableView.backgroundColor">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WorkListTableViewController.changeAppearance() -&gt; ():WorkListTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(remoteConfig[backgroundColorKey].numberValue?.unsignedIntegerValue)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WorkListTableViewController.tableView(UITableView, commitEditingStyle : UITableViewCellEditingStyle, forRowAtIndexPath : NSIndexPath) -&gt; ():WorkListTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "works[indexPath.row].id">
+            </PersistentString>
+            <PersistentString
+               value = "databaseRef.child(&quot;/\(works[indexPath.row].id)&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WorkListTableViewController.viewDidLoad() -&gt; ():WorkListTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "remoteConfig[backgroundColorKey].numberValue!.unsignedIntegerValue">
+            </PersistentString>
+            <PersistentString
+               value = "remoteConfig[textColorKey].numberValue!.unsignedIntegerValue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.(application(UIApplication, didFinishLaunchingWithOptions : [NSObject : AnyObject]?) -&gt; Bool).(closure #1):AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "user.uid">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WorkListTableViewController.tableView(UITableView, cellForRowAtIndexPath : NSIndexPath) -&gt; UITableViewCell:WorkListTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "remoteConfig[&quot;backgroundColor&quot;].numberValue">
+            </PersistentString>
+            <PersistentString
+               value = "remoteConfig[&quot;textColor&quot;].numberValue">
+            </PersistentString>
+            <PersistentString
+               value = "remoteConfig as? [String:AnyObject]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
